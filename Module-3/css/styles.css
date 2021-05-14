@@ -1,0 +1,18 @@
+.navbar-brand>.tar {
+    color:white;
+    padding-left: 10px;
+}
+.navbar{
+    background-color:#0000A0;
+}
+#main-content{
+    background-color: #2B65EC;
+}
+
+.card{
+    background-color:#3BB9FF;
+    padding-top: 15px;
+}
+.card-body{
+    padding-top: 0px;
+}
