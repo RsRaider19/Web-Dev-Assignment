@@ -20,29 +20,81 @@ body{
     margin: 10px 15px 10px 0; 
 }
 .navbar-brand, .star{
-    font-size: 1.25em;
+    font-size: 1.15em;
     padding: 0%;
     margin: 0%;
     color: black;
 }
-.box{
-    float: right;
+#menu-box{
+    width: 360px;
+    margin: 0px auto 0px;
+   
 }
+
+#menu-tile, #specials-tile, #map-tile{
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    
+}
+#tile-name{
+    position: relative;
+    text-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    text-align: center;
+}
+.panel-footer{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+}
+.card{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
+}
+.col{
+    height: 250px;
+}
+
 
 @media(min-width:1400px)
 {
+    #rest_img{
+        background: url('../Images/rest1200.jpg');
+        height: 675px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    }
 
 }
 @media(min-width:1200px) and (max-width:1399px)
 {
-
+    #rest_img{
+        background: url('../Images/rest1200.jpg');
+        height: 675px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
+    
 }
 @media(min-width:992px) and (max-width:1199px)
 {
-    
+    #rest_img{
+        background: url('../Images/rest992.jpg');
+        height: 558px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
+
 }
 @media(min-width:768px) and (max-width:991px)
 {
+    #rest_img{
+        background: url('../Images/rest768.jpg');
+        height: 432px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
     
 }
 @media(min-width:576px) and (max-width:767px)

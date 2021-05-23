@@ -1,34 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Module-3</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <header>
-            <nav id="header-nav" class="navbar " >
-                <div class="container">
-                    <div class="navbar-header" >
-                        <a href="rest.html" >
-                            <div id="logo-img" class="d-none d-sm-block "></div>
-                        </a>
-                    </div>
-                    <div class="size" style="border: 2px solid black;">
-                        <a href="rest.html" class="navbar-brand" >
-                            <h1>Central Perk Restaurant</h1>
-                        </a>
-                        <h6 class="star"><img src="Images/star-k-logo.png" alt="star"> Fassai Certified</h6>
-                    </div> 
-                    <span class="box" ></span> 
-                    
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-md" >
+            <div class="container">
+                <div class="navbar-header" >
+                    <a href="rest.html" >
+                        <div id="logo-img" class="d-none d-sm-block "></div>
+                    </a>
                 </div>
-                
-            </nav>
-            
-        </header>
+                <div class="size">
+                    <a href="rest.html" class="navbar-brand" >
+                        <h1>Central Perk Restaurant</h1>
+                    </a>
+                    <h6 class="star"><img src="Images/star-k-logo.png" alt="star"> Fassai Certified</h6>
+                </div> 
+                <button class="navbar-toggler bg-light ms-4" data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#chick" class="nav-link text-center">A</a></li>
+                        <li class="nav-item"><a href="#beef" class="nav-link text-center">B</a></li>
+                        <li class="nav-item"><a href="#sushi" class="nav-link text-center">S</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" id="main-content">
+        <div id="rest_img"></div>
+        <div class="row text-center">
+            <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 p-1 pb-3">
+                <div id="menu-box">
+                    <a href="" style="text-decoration: none;" >
+                    <div ><img src="Images/menu-tile.jpg" alt="menu-img" class="rounded-3" id="menu-tile"></div>
+                    <span id="tile-name">Menu</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-sm-12 p-1 pb-3">
+                <div id="menu-box">
+                    <a href="" style="text-decoration: none;">
+                        <div><img src="Images/specials-tile.jpg" alt="special-img" class="rounded-3" id="specials-tile"></div>
+                        <span id="tile-name">Special</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-12 p-1 pb-3">
+                <div id="menu-box">
+                    <a href="https://goo.gl/maps/x8di5n9BLkJvN6Bn9" style="text-decoration: none;" >
+                        <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14238.484374167245!2d80.93919477877199!3d26.852001380458503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd09c18f1e13%3A0xbf01e68d3158fb37!2sHazratganj%2C%20Lucknow%2C%20Uttar%20Pradesh%20226001!5e0!3m2!1sen!2sin!4v1621779433399!5m2!1sen!2sin" width="360" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded-3" id="map-tile"></iframe></div>
+                        <span id="tile-name">Map</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="panel-footer pt-4 pb-4">
+        <div class="container">
+          <div class="row pt-3 pb-3">
+            <section id="hours" class="col-lg-4 col-md-6 col-sm-12 card">
+              <span>Hours:</span><br>
+              Sun-Thurs: 11:15am - 10:00pm<br>
+              Fri: 11:15am - 2:30pm<br>
+              Saturday Closed
+              <hr class="d-sm-block d-md-none">
+            </section>
+            <section id="address" class="col-lg-4 col-md-6 col-sm-12 card">
+              <span>Address:</span><br>
+              7105 Reisterstown Road<br>
+              Baltimore, MD 21215
+              <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+              <hr class="d-md-none d-lg-block">
+            </section>
+            <section id="testimonials" class="col-lg-4 col-md-12 card">
+              <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+              <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+            </section>
+          </div>
+          <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div>
+        </div>
+    </footer>
+
         
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
