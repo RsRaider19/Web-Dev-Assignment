@@ -1,0 +1,142 @@
+body{
+    background-color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar>.container{
+    justify-content: left;
+}
+.navbar{
+    background-color: bisque;
+    width:100%;
+    border-radius: 2px;
+    color: black;
+    
+}
+
+#logo-img {
+    background: url('../Images/restaurant-logo_large.png');
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0; 
+}
+.navbar-brand, .star{
+    font-size: 1.15em;
+    padding: 0%;
+    margin: 0%;
+    color: black;
+}
+#menu-box{
+    width: 360px;
+    margin: 0px auto 0px;
+   
+}
+
+#menu-tile, #specials-tile, #map-tile{
+    box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    
+}
+#tile-name{
+    position: relative;
+    text-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    text-align: center;
+}
+.panel-footer{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+}
+.card{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0);
+}
+.col{
+    height: 250px;
+}/* END OF FOOTER*/
+/*START OF MENU CATEGORY*/
+.menu-img{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.name-tile{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+@media(min-width:1400px)
+{
+    #rest_img{
+        background: url('../Images/rest1200.jpg');
+        height: 675px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+    }
+
+}
+@media(min-width:1200px) and (max-width:1399px)
+{
+    #rest_img{
+        background: url('../Images/rest1200.jpg');
+        height: 675px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
+    
+}
+@media(min-width:992px) and (max-width:1199px)
+{
+    #rest_img{
+        background: url('../Images/rest992.jpg');
+        height: 558px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
+
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    #rest_img{
+        background: url('../Images/rest768.jpg');
+        height: 432px;
+        margin: 25px;
+        box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.5), -6px -6px 20px 0 rgba(0, 0, 0, 0.5);
+        margin: 25px 0px 25px 0px;
+    }
+    
+}
+@media(min-width:576px) and (max-width:767px)
+{
+    
+}
+@media (max-width:575px)
+{
+    .size> h6{
+        font-size: calc(1rem + 0.25vw);
+        padding: 0%;
+        margin: 0%;
+        color: black;
+    }
+    .size h1{
+        font-size: calc(1.375rem + 1.5vw);
+        padding: 0%;
+        margin: 0%;
+        color: black;
+    }
+}
+
+
